@@ -8,7 +8,8 @@ namespace SmartMovingMobileApp.Models
     {
         Browse,
         About,
-        Home
+        Home,
+        Charts
     }
     public class HomeMenuItem
     {

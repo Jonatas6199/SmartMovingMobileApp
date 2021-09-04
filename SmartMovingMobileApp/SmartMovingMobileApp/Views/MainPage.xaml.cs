@@ -39,6 +39,9 @@ namespace SmartMovingMobileApp.Views
                     case (int)MenuItemType.Home:
                         MenuPages.Add(id, new NavigationPage(new HomePage()));
                         break;
+                    case (int)MenuItemType.Charts:
+                        MenuPages.Add(id, new NavigationPage(new ChartsPage()));
+                        break;
 
                 }
             }

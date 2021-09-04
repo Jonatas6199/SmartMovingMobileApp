@@ -22,7 +22,8 @@ namespace SmartMovingMobileApp.Views
             {
                 new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" },
-                new HomeMenuItem {Id = MenuItemType.Home, Title="Home"}
+                new HomeMenuItem {Id = MenuItemType.Home, Title="Home"},
+                new HomeMenuItem {Id = MenuItemType.Charts, Title="Charts"}
             };
 
             ListViewMenu.ItemsSource = menuItems;
